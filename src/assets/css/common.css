@@ -1,0 +1,41 @@
+@import './base.css';
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('/font/icomoon.ttf') format('truetype'),
+    url('/font/icomoon.woff') format('woff'),
+    url('/font/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+html {
+  background-color: #fff;
+  color: #444;
+  font-size: 3.5vw;
+  line-height: 1.5;
+}
+body {
+  font-family: Arial, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN',
+    'ＭＳ Ｐゴシック', 'メイリオ', Meiryo, 'MS PGothic', sans-serif;
+}
+a {
+  color: #444;
+}
+img {
+  width: 100%;
+  vertical-align: top;
+}
+main {
+  background: #fff;
+}
+
+@media screen and (min-width: 460px) {
+  html {
+    font-size: 16px;
+  }
+  body {
+    width: 460px;
+    margin: auto;
+  }
+}
